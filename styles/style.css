@@ -1,6 +1,17 @@
+* {
+    margin: 0;
+}
+
 .admin-page {
 
     display: grid;
     grid-template-columns: repeat(9, 300px);
     grid-template-rows: repeat(9, 200px);
+}
+
+.left-navbar {
+
+    background: rgb(9, 153, 209);
+    grid-row-start: 1;
+    grid-row-end: -1;
 }
