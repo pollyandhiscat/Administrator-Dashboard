@@ -16,6 +16,13 @@
     grid-row-end: -1;
 }
 
+.dashboard-name {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .dashboard-name > img {
 
         width: 50px;
