@@ -1,6 +1,6 @@
 .admin-page {
 
     display: grid;
-    grid-template-columns: repeat(9, 200px);
+    grid-template-columns: repeat(9, 300px);
     grid-template-rows: repeat(9, 200px);
 }
