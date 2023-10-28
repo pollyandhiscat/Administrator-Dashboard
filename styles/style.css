@@ -83,6 +83,29 @@
 
 }
 
+#book-icon-left-navbar {
+
+    font-size: x-large;
+}
+
+.left-navbar .book-icon {
+
+    width: 50px;
+    height: auto;
+}
+
+.history {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    gap: 10px;
+    margin: 15px;
+
+}
+
 #chat-icon-left-navbar {
 
     font-size: x-large;
