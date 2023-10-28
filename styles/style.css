@@ -22,12 +22,13 @@
 .dashboard-name {
 
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
     gap: 15px;
     font-size: xx-large;
     grid-row-start: 1;
     grid-row-end: 2;
+    margin: 15px;
 }
 
 .dashboard-name > img {
