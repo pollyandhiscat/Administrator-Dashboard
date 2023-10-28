@@ -63,3 +63,25 @@
 
     font-size: x-large;
 }
+
+.left-navbar .chat-icon {
+
+    width: 50px;
+    height: auto;
+}
+
+.messages {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    gap: 10px;
+
+}
+
+#chat-icon-left-navbar {
+
+    font-size: x-large;
+}
