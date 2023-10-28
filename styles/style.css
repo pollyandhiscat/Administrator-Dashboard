@@ -35,3 +35,21 @@
     width: 50px;
     height: auto;
 }
+
+.left-navbar .home-icon {
+
+    width: 50px;
+    height: auto;
+}
+
+.home {
+
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#home-icon-left-navbar {
+
+    font-size: x-large;
+}
