@@ -6,7 +6,7 @@
 
     display: grid;
     grid-template-columns: repeat(9, 300px);
-    grid-template-rows: repeat(9, 200px);
+    grid-template-rows: repeat(9, 100px);
 }
 
 .left-navbar {
@@ -26,6 +26,12 @@
 
 .dashboard-name > img {
 
-        width: 50px;
+        width: 75px;
         height: auto;
+}
+
+.left-navbar > img {
+
+    width: 50px;
+    height: auto;
 }
