@@ -259,3 +259,14 @@
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.projects-section {
+
+    background: rgb(26, 30, 29);
+    grid-template-columns: repeat(9, 200px);
+    grid-template-rows: repeat(9,200px);
+    grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row-start: 3;
+    grid-row-end: -1;
+}
