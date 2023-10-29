@@ -158,3 +158,26 @@
     font-size: x-large;
 }
 
+.left-navbar .gear-icon {
+
+    width: 50px;
+    height: auto;
+}
+
+.settings {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    gap: 10px;
+    margin: 15px;
+
+}
+
+#gear-icon-left-navbar {
+
+    font-size: x-large;
+}
+
