@@ -181,3 +181,25 @@
     font-size: x-large;
 }
 
+.left-navbar .support-icon {
+
+    width: 50px;
+    height: auto;
+}
+
+.support {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    gap: 10px;
+    margin: 15px;
+
+}
+
+#support-icon-left-navbar {
+
+    font-size: x-large;
+}
