@@ -14,7 +14,7 @@
     background: rgb(9, 153, 209);
     display: grid;
     grid-template-columns: 300px;
-    grid-template-rows: repeat(9,100px);
+    grid-template-rows: repeat(9, 100px);
     grid-row-start: 1;
     grid-row-end: -1;
 }
@@ -31,26 +31,32 @@
     margin: 15px;
 }
 
-.dashboard-name > img {
+.dashboard-name>img {
 
-        width: 75px;
-        height: auto;
+    width: 75px;
+    height: auto;
 }
 
-.left-navbar > img {
+.left-navbar>img {
 
     width: 50px;
     height: auto;
 }
 
-.left-navbar .home-icon {
+.left-navbar .home-icon,
+.left-navbar .chat-icon,
+.left-navbar .book-icon,
+.left-navbar .tasks-icon,
+.left-navbar .social-icon,
+.left-navbar .gear-icon,
+.left-navbar .support-icon {
 
-    width: 50px;
+    width: 30px;
     height: auto;
 }
 
 .home {
-    
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -61,19 +67,19 @@
 
 }
 
-#home-icon-left-navbar {
+#home-icon-left-navbar,
+#book-icon-left-navbar,
+#chat-icon-left-navbar,
+#tasks-icon-left-navbar,
+#social-icon-left-navbar,
+#gear-icon-left-navbar,
+#support-icon-left-navbar {
 
     font-size: x-large;
 }
 
-.left-navbar .chat-icon {
-
-    width: 50px;
-    height: auto;
-}
-
 .messages {
-    
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -84,19 +90,8 @@
 
 }
 
-#book-icon-left-navbar {
-
-    font-size: x-large;
-}
-
-.left-navbar .book-icon {
-
-    width: 50px;
-    height: auto;
-}
-
 .history {
-    
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -107,19 +102,8 @@
 
 }
 
-#chat-icon-left-navbar {
-
-    font-size: x-large;
-}
-
-.left-navbar .tasks-icon {
-
-    width: 50px;
-    height: auto;
-}
-
 .tasks {
-    
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -130,19 +114,8 @@
 
 }
 
-#tasks-icon-left-navbar {
-
-    font-size: x-large;
-}
-
-.left-navbar .social-icon {
-
-    width: 50px;
-    height: auto;
-}
-
 .social {
-    
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -153,19 +126,8 @@
 
 }
 
-#social-icon-left-navbar {
-
-    font-size: x-large;
-}
-
-.left-navbar .gear-icon {
-
-    width: 50px;
-    height: auto;
-}
-
 .settings {
-    
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -176,19 +138,8 @@
 
 }
 
-#gear-icon-left-navbar {
-
-    font-size: x-large;
-}
-
-.left-navbar .support-icon {
-
-    width: 50px;
-    height: auto;
-}
-
 .support {
-    
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -199,10 +150,7 @@
 
 }
 
-#support-icon-left-navbar {
 
-    font-size: x-large;
-}
 
 .top-navbar {
 
@@ -264,7 +212,7 @@
 
     background: rgb(26, 30, 29);
     grid-template-columns: repeat(9, 200px);
-    grid-template-rows: repeat(9,200px);
+    grid-template-rows: repeat(9, 200px);
     grid-column-start: 2;
     grid-column-end: -1;
     grid-row-start: 3;
