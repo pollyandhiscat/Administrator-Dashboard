@@ -220,3 +220,32 @@
     grid-row-start: 3;
     grid-row-end: -1;
 }
+
+.bell-avatar-username {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#bell-icon-top-navbar,
+#person-icon-top-navbar {
+
+    width: 30px;
+    height: auto;
+}
+
+#username-bell-avatar-username {
+
+    font-size: large;
+}
+
+<div class="bell-avatar-username">
+<img src="./images/bell.svg" alt="A bell icon." id="bell-icon-top-navbar">
+<img src="./images/person-circle.svg" alt="A person icon." id="person-icon-top-navbar">
+<h4 id="username-bell-avatar-username">@pollyandhiscat</h4>
+</div>
