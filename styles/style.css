@@ -273,3 +273,27 @@
     grid-template-rows: repeat(9, 1fr);
     grid-template-columns: repeat(9, 1fr);
 }
+
+.project-collection {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    margin: 10px;
+}
+
+.project {
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(225, 240, 6);
+    background: rgb(187, 191, 191);
+    border-radius: 20px;
+}
