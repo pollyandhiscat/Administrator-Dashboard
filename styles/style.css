@@ -429,7 +429,6 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 4;
-    border: 2px solid yellow;
 
 }
 
@@ -439,7 +438,6 @@
     grid-column-end: 2;
     grid-row-start: 5;
     grid-row-end: 7;
-    border: 2px solid yellow;
 
 }
 
@@ -449,7 +447,6 @@
     grid-column-end: 2;
     grid-row-start: 8;
     grid-row-end: 10;
-    border: 2px solid yellow;
 
 }
 
@@ -471,6 +468,18 @@
     grid-row-end: 1;
     font-size: x-large;
     color: azure;
+    font-style: oblique;
+
+}
+
+.announcement-line {
+
+    color: azure;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    height: 1px;
 
 }
 
@@ -483,7 +492,9 @@
     font-size: medium;
     color: azure;
     margin: 5px;
-
+    font-style: oblique;
 
 }
+
+
 
