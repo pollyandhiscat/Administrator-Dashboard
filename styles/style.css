@@ -296,4 +296,53 @@
     border: 2px solid rgb(225, 240, 6);
     background: rgb(187, 191, 191);
     border-radius: 20px;
+    
 }
+
+.folder-open-icon {
+
+    width: 30px;
+    height: auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+}
+
+.calendar-icon {
+
+    width: 30px;
+    height: auto;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.raised-hand-icon {
+
+    width: 30px;
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+
+}
+
+.trash-icon {
+
+    width: 30px;
+    height: auto;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    margin: 10px;
+    
+
+
+}
+
