@@ -1,5 +1,7 @@
 * {
+
     margin: 0;
+
 }
 
 .admin-page {
@@ -7,6 +9,7 @@
     display: grid;
     grid-template-columns: repeat(7, 275px);
     grid-template-rows: repeat(9, 100px);
+
 }
 
 .left-navbar {
@@ -17,6 +20,7 @@
     grid-template-rows: repeat(9, 100px);
     grid-row-start: 1;
     grid-row-end: -1;
+
 }
 
 .dashboard-name {
@@ -29,18 +33,21 @@
     grid-row-start: 1;
     grid-row-end: 2;
     margin: 15px;
+
 }
 
 .dashboard-name>img {
 
     width: 75px;
     height: auto;
+
 }
 
 .left-navbar>img {
 
     width: 50px;
     height: auto;
+
 }
 
 .left-navbar .home-icon,
@@ -53,6 +60,7 @@
 
     width: 30px;
     height: auto;
+
 }
 
 .home {
@@ -170,12 +178,14 @@
     justify-content: flex-start;
     gap: 15px;
     margin: 15px;
+
 }
 
 .search-icon {
 
     width: 25px;
     height: 30px;
+
 }
 
 #search-box {
@@ -185,6 +195,7 @@
     background-color: rgba(196, 233, 255, 0.665);
     border-radius: 10px;
     font-size: medium;
+
 }
 
 .user-greeting {
@@ -194,7 +205,6 @@
     grid-row-start: 2;
     grid-row-end: 3;
     margin: 15px;
-
 
 }
 
@@ -219,6 +229,7 @@
     grid-column-end: -1;
     grid-row-start: 3;
     grid-row-end: -1;
+
 }
 
 .bell-avatar-username {
@@ -230,6 +241,7 @@
     grid-column-end: 8;
     grid-row-start: 1;
     grid-row-end: 1;
+
 }
 
 #bell-icon-top-navbar,
@@ -237,11 +249,13 @@
 
     width: 30px;
     height: auto;
+
 }
 
 #username-bell-avatar-username {
 
     font-size: large;
+
 }
 
 .new-upload-share-buttons {
@@ -265,6 +279,7 @@
     border-radius: 20px;
     background: rgb(9, 153, 209);
     color: azure;
+
 }
 
 .projects-section {
@@ -272,6 +287,7 @@
     display: grid;
     grid-template-rows: repeat(9, 1fr);
     grid-template-columns: repeat(9, 1fr);
+
 }
 
 .project-collection {
@@ -284,19 +300,20 @@
     grid-row-start: 1;
     grid-row-end: -1;
     margin: 10px;
+
 }
 
 .project {
-    
+
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     width: 300px;
     height: 200px;
     border: 2px solid rgb(225, 240, 6);
     background: rgb(187, 191, 191);
     border-radius: 20px;
-    
+
 }
 
 .project-heading {
@@ -309,7 +326,6 @@
     grid-row-start: 1;
     grid-row-end: 1;
     margin: 10px;
-
 
 }
 
@@ -343,6 +359,7 @@
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 3;
+
 }
 
 .raised-hand-icon {
@@ -353,7 +370,6 @@
     grid-column-end: 1;
     grid-row-start: 3;
     grid-row-end: 3;
-
 
 }
 
@@ -366,8 +382,17 @@
     grid-row-start: 3;
     grid-row-end: 3;
     margin: 10px;
-    
-
 
 }
 
+.announcements-trending {
+
+    border: 2px solid red;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(6,1fr);
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 9;
+}
