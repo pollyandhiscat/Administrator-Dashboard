@@ -387,7 +387,6 @@
 
 .announcements-recent-activity {
 
-    border: 2px solid red;
     display: grid;
     grid-template-rows: repeat(12, 1fr);
     grid-template-columns: repeat(6,1fr);
@@ -407,7 +406,6 @@
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: -1;
-    border: 2px solid green;
 
 }
 
@@ -484,6 +482,104 @@
 }
 
 .announcement-text {
+
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 2;
+    grid-row-end: -1;
+    font-size: medium;
+    color: azure;
+    margin: 5px;
+    font-style: oblique;
+
+}
+
+
+.recent-activity-section {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: -1;
+
+}
+
+#recent-activity-heading {
+
+    font-weight: bold;
+    color: azure;
+    font-size: x-large;
+    grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+
+.recent-activity-1 {
+
+    grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+
+.recent-activity-2 {
+
+    grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row-start: 5;
+    grid-row-end: 7;
+
+}
+
+.recent-activity-3 {
+
+    grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row-start: 8;
+    grid-row-end: 10;
+
+}
+
+.recent-activity-1,
+.recent-activity-2,
+.recent-activity-3 {
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+}
+
+.recent-activity-sub-heading {
+
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-size: x-large;
+    color: azure;
+    font-style: oblique;
+
+}
+
+.recent-activity-line {
+
+    color: azure;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    height: 1px;
+
+}
+
+.recent-activity-text {
 
     grid-column-start: 1;
     grid-column-end: -1;
